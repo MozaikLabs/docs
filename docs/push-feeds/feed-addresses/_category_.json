@@ -1,0 +1,8 @@
+{
+  "label": "Feed Addresses",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Feed Addresses by Network"
+  }
+}
