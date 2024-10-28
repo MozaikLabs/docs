@@ -1,0 +1,37 @@
+---
+sidebar_position: 1
+---
+
+# Holesky
+
+## Feed Addresses
+
+:::tip[Live Feeds]
+Need a feed not listed? Contact us!
+:::
+
+:::caution
+
+In development, should only be used for testing.
+
+:::
+
+**BTC/USD:** `0xE84ed284A593Cc1d23e587506b9f3514A434306d`
+
+**ETH/USD:** `0xd8f429F6B0ce27a4d79ec49eb482Cb15F3828746`
+
+**BNB/USD:** `0x37004d942e2Ee914c5eAb1EEc1ad650883aF43b1`
+
+**POL/USD:** `0x65C3DF13F35d386b4d26a43De67d426650410cB7`
+
+**USDC/USD:** `0xF49a7Ef67c79B6876954Af34fE3eD8e374A542f4`
+
+**USDT/USD:** `0x9f38dd76A35A3d7cFBe140F2651dE9411BCDaeDB`
+
+**SOL/USD:** `0x0c52B422015FfC79A05D7F45c7bBd0622a5CAAD0`
+
+**AVAX/USD:** `0x00C5C1Cbf9107F3623BDc08712d8506190a448C2`
+
+**OP/USD:** `0x322f325d61CC0F5da033C631028BA22f94AA8264`
+
+**ARB/USD:** `0xbC29c6016c5a71f96a603df1Eb1a7Bd9c69B417A`

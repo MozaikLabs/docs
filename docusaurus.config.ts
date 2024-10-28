@@ -3,14 +3,12 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Mozaik",
-  tagline: "Dinosaurs are cool",
+  title: "Mozaik Labs",
+  tagline: "Building the Future of Decentralization",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: "https://docs.mozaiklabs.io",
   baseUrl: "/",
 
   // GitHub pages deployment config.
@@ -26,7 +24,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "es"],
   },
 
   presets: [
@@ -37,8 +35,8 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -48,8 +46,8 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -64,12 +62,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/logo-transparent.svg",
     navbar: {
-      title: "Mozaik",
+      title: "Mozaik Labs",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "Mozaik Labs",
+        src: "img/logo-transparent.svg",
       },
       items: [
         {
@@ -78,8 +76,9 @@ const config: Config = {
           position: "left",
           label: "Docs",
         },
+        { type: "localeDropdown", position: "right" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/MozaikLabs/docs",
           label: "GitHub",
           position: "right",
         },
@@ -92,7 +91,7 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
+              label: "Getting Started",
               to: "/docs/intro",
             },
           ],
@@ -101,34 +100,26 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Twitter | X",
+              href: "https://twitter.com/mozaiklabs",
             },
           ],
         },
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "/blog",
+            // },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/MozaikLabs",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Mozaik Labs, Inc.`,
     },
     prism: {
       theme: prismThemes.github,
