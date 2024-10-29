@@ -1,0 +1,8 @@
+{
+  "label": "Feed ID's",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Feed Id's by Network"
+  }
+}
