@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "Push Feeds",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/push-logo-removebg.svg").default,
     description: (
       <>
         Push Data Feeds allow users to interact directly with feed contracts to
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "RTD Feeds",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/rtd-logo-removebg.svg").default,
     description: (
       <>
         Real Time Data (RTD) Feeds allow users to bring data into their smart
