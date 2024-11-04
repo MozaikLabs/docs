@@ -8,8 +8,6 @@ sidebar_position: 1
 
 `0x7B753106E79aa75e17DFb78749bce7A48d28D29E`
 
-- Coming Soon
-
 ## Feed Id's
 
 :::tip[Live Feeds]
